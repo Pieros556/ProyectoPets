@@ -15,7 +15,7 @@ namespace ProyectoPets.Controllers
             return View();
         }
 
-        public IActionResult Portada()
+        public IActionResult ()
         {
           return View();
         }

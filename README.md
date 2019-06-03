@@ -31,4 +31,5 @@
     -Los usuarios pueden crear su perfil con informacion relevante(Foto, NickName, Nombres y apellidos)
     -El aplicativo web, en la opcion de publicar, habrá diversos criterios a completar.
     -Diversas formas de contacto entre usuarios.
+    -
         
