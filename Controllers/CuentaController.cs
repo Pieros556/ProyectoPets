@@ -1,12 +1,17 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using ProyectoPets.Data;
+using ProyectoPets.ViewModels;
+
 namespace ProyectoPets.Controllers
 {
     public class CuentaController :Controller
     {
-        private TiendaContext _context;
+        private PetContext _context;
         private UserManager<IdentityUser> _userManager;
         private SignInManager<IdentityUser> _signInManager;
-        public AccountController(
-            TiendaContext c,
+        public CuentaController(
+            PetContext c,
             UserManager<IdentityUser> um,
             SignInManager<IdentityUser> sim
         ) {

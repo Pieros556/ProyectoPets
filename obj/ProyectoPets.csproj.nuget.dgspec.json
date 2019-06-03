@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "pomelo.entityframeworkcore.mysql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
